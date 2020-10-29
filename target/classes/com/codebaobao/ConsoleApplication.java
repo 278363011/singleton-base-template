@@ -17,10 +17,12 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @MapperScan("com.codebaobao.mapper")
 @SpringBootApplication(scanBasePackages = {"com.codebaobao"},exclude = {})
 public class ConsoleApplication {
+
     public static void main(String[] args) {
         final SpringApplication app = new SpringApplication(ConsoleApplication.class);
         app.setBannerMode(Banner.Mode.OFF);
         app.run(args);
         log.info("#####################electronic-console is running!!!!!!!!######################");
     }
+
 }

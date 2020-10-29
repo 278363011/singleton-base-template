@@ -24,7 +24,7 @@ public class MyGenerator {
         // 1全局配置
         GlobalConfig gc = new GlobalConfig();
         gc.setAuthor("codebaobao");
-        gc.setOutputDir("F:\\123\\intelligence-electronic\\electronic-parent\\electronic-console\\src\\main\\java\\");
+        gc.setOutputDir("F:\\8888\\singleton-base-template\\src\\main\\java\\");
         gc.setFileOverride(true);// 是否覆盖同名文件，默认是false
         gc.setIdType(IdType.AUTO);// 主键策略
         gc.setActiveRecord(true);// 不需要ActiveRecord特性的请改为false
@@ -54,7 +54,7 @@ public class MyGenerator {
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("87654321");
-        dsc.setUrl("jdbc:mysql://172.21.91.114:3306/electronic?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8");
+        dsc.setUrl("jdbc:mysql://172.21.91.114:3306/multitenant_integrated_trade?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8");
         mpg.setDataSource(dsc);
 
         // 3策略配置globalConfiguration中
@@ -94,7 +94,7 @@ public class MyGenerator {
         //                          .setEntity("entity")
         //                           .setXml("resource");//mapper.xml
         PackageConfig pc = new PackageConfig();
-        pc.setParent("com.sydl.console")
+        pc.setParent("com.codebaobao")
                 .setController("controller")
                 .setMapper("mapper")
                 .setService("service")
@@ -133,7 +133,7 @@ public class MyGenerator {
         focList.add(new FileOutConfig("/templates/mapper.xml.ftl") {
             @Override
             public String outputFile(TableInfo tableInfo) {
-                return "F:\\123\\intelligence-electronic\\electronic-parent\\electronic-console\\src\\main\\resources\\mapper\\" + tableInfo.getEntityName() + "Mapper" + ".xml";
+                return "F:\\8888\\singleton-base-template\\src\\main\\resources\\mapper\\" + tableInfo.getEntityName() + "Mapper" + ".xml";
             }
         });
         cfg.setFileOutConfigList(focList);

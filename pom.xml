@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.6.RELEASE</version>
+        <version>2.3.4.RELEASE</version>
     </parent>
 
     <groupId>org.codebaobao</groupId>
@@ -22,19 +22,11 @@
         <maven.compiler.target>1.8</maven.compiler.target><!-- 编译 -->
         <revision>1.0.0-SNAPSHOT</revision>
 
-        <spring-boot.version>2.3.4.RELEASE</spring-boot.version>
-
-        <log4j2.version>2.11.1</log4j2.version>
-
-        <springboot.log4j2.version>2.3.4.RELEASE</springboot.log4j2.version>
-
         <disruptor.version>3.4.2</disruptor.version>
 
         <slf4j.version>1.7.30</slf4j.version>
 
         <lombok.version>1.18.12</lombok.version>
-        <!--netty-->
-        <netty.version>4.1.36.Final</netty.version>
 
         <mysql.version>8.0.21</mysql.version>
 
@@ -48,7 +40,7 @@
 
         <freemarker.version>2.3.30</freemarker.version>
 
-        <jwt.version>0.9.0</jwt.version>
+        <spring.shiro.version>1.6.0</spring.shiro.version>
 
     </properties>
 
@@ -95,6 +87,12 @@
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
 
+        <!--热部署依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+        </dependency>
 
         <!-- 统一日志门面 -->
         <dependency>
@@ -102,11 +100,11 @@
             <artifactId>slf4j-api</artifactId>
             <version>${slf4j.version}</version>
         </dependency>
-        <!-- java 方式 -->
+
+        <!-- springboot 方式 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
-            <version>${springboot.log4j2.version}</version>
         </dependency>
 
         <!--log4j2异步AsyncLogger需要这个依赖,否则AsyncLogger日志打印不出来-->
@@ -115,6 +113,14 @@
             <artifactId>disruptor</artifactId>
             <version>${disruptor.version}</version>
         </dependency>
+
+        <!-- shiro -->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+            <version>${spring.shiro.version}</version>
+        </dependency>
+
 
         <!-- lang3 -->
         <dependency>
