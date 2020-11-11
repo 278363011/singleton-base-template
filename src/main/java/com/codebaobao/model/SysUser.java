@@ -117,11 +117,6 @@ public class SysUser extends Model<SysUser> {
      */
     private LocalDateTime updateTime;
 
-    /**
-     * 用户对应的角色集合
-     */
-    private Set<SysRole> roles;
-
 
     @Override
     protected Serializable pkVal() {

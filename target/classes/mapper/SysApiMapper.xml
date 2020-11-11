@@ -15,4 +15,20 @@
         <result column="del_flag" property="delFlag" />
     </resultMap>
 
+
+
+
+
+
+
+    <select id="findApiPermissionsByRoleId" resultType="String">
+        SELECT sa.`url` FROM  sys_role AS sr LEFT JOIN sys_role_api AS sra
+        ON sr.`id` = sra.`role_id`
+        LEFT JOIN sys_api AS sa
+        ON sa.`id` = sra.`api_id`
+        WHERE sr.`id` = #{roleId}
+    </select>
+
+
+
 </mapper>

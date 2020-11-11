@@ -8,8 +8,8 @@ server:
       min-spare: 100
     connection-timeout: 5000ms
   port: 8080
-  servlet:
-    context-path: /common
+#  servlet:
+#    context-path: /common
 
 logging:
   config: classpath:log4j2.xml
@@ -22,9 +22,10 @@ spring:
 #      additional-exclude: WEB-INF/**
   redis:
     database: 0
-#    password: #redis密码
     host: 172.21.91.114
     port: 6379
+    timeout: 2000s
+    password:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.cj.jdbc.Driver
@@ -57,8 +58,6 @@ spring:
         wall:
           config:
             multi-statement-allow: true
-
-
 
 mybatis-plus:
   mapper-locations: classpath:mapper/*.xml

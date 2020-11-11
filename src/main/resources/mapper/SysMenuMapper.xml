@@ -18,4 +18,19 @@
         <result column="del_flag" property="delFlag" />
     </resultMap>
 
+
+
+    <select id="findMenuPermissionsByRoleId" resultType="String">
+        SELECT sm.`url` FROM  sys_role AS sr LEFT JOIN sys_role_menu AS srm
+        ON sr.`id` = srm.`role_id`
+        LEFT JOIN sys_menu AS sm
+        ON sm.`id` = srm.`menu_id`
+        WHERE sr.`id` = #{roleId}
+    </select>
+
+
+
+
+
+
 </mapper>

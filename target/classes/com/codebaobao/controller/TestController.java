@@ -13,6 +13,9 @@ public class TestController {
     @Autowired
     SysMenuService sysMenuService;
 
+    /**
+     * 逻辑删除
+     */
     @RequestMapping("/test1")
     public  void test1(){
         sysMenuService.removeById(5);

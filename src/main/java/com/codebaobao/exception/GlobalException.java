@@ -23,4 +23,6 @@ public class GlobalException {
         result.put("message", "触发我的异常");
         return result;
     }
+
+
 }

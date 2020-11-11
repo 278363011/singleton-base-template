@@ -1,0 +1,6 @@
+
+L
+java:S2696"6Make the enclosing method "static" or remove this set.(—ÿ¶“
+‰
+java:S1130"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(―¶…
+[	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(ξύΒ

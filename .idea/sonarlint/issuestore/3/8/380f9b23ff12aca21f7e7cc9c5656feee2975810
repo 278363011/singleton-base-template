@@ -1,0 +1,15 @@
+
+V
+java:S1128"9Remove this unused import 'com.codebaobao.result.Result'.(”ğƒ½8†’°œ×.
+h
+java:S1128"KRemove this unused import 'org.apache.shiro.authc.AuthenticationException'.(Áöó©8†’°œ×.
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÚŠïé
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ö»
+s
+java:S1128"QRemove this unused import 'com.codebaobao.exception.user.UserInfoEmptyException'.(Úûããúÿÿÿÿ8†’°œ×.
+Y
+java:S2166"CRename this class to remove "Exception" or correct its inheritance.(¦Ğí
+m
+java:S1128"KRemove this unused import 'org.apache.shiro.authc.UnknownAccountException'.(‚£¾ıÿÿÿÿ8†’°œ×.
+l
+java:S1128"JRemove this unused import 'org.apache.shiro.authz.AuthorizationException'.(şšò¾ÿÿÿÿÿ8†’°œ×.

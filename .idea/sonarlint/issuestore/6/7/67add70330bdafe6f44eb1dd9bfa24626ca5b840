@@ -1,0 +1,15 @@
+
+p
+java:S1104"UMake roleNames a static final constant or non-public and provide accessors if needed.(Ø…‹ùÿÿÿÿÿ
+n
+java:S1104"SMake account a static final constant or non-public and provide accessors if needed.(‰±™²úÿÿÿÿ
+A
+java:S1948"&Make "roleNames" private or transient.(Ø…‹ùÿÿÿÿÿ
+@
+java:S1948"%Make "roleList" private or transient.(Ž¿ºÆÿÿÿÿÿ
+o
+java:S1104"TMake roleList a static final constant or non-public and provide accessors if needed.(Ž¿ºÆÿÿÿÿÿ
+k
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.(Ëé£Þþÿÿÿÿ
+i
+java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(±÷öŸüÿÿÿÿ

@@ -1,0 +1,8 @@
+
+9
+java:S1643"Use a StringBuilder instead.(Ä¡œ‘8Öœû˜×.
+K
+java:S2140")Use "java.util.Random.nextInt()" instead.(ïØ¢òûÿÿÿÿ8Öœû˜×.
+\
+java:S1118":Add a private constructor to hide the implicit public one.(ÿ´ª‚þÿÿÿÿ8´©ï˜×.
+t	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Â¨•ù8Öœû˜×.

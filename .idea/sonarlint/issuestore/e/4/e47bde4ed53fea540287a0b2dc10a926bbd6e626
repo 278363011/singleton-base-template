@@ -1,0 +1,6 @@
+
+W	java:S110"<This class has 6 parents which is greater than 5 authorized.(õÁì 8Ãş»Ù.
+
+java:S1130."{Remove the declaration of thrown exception 'org.apache.shiro.session.UnknownSessionException' which is a runtime exception.(üÂüüÿÿÿÿ8ãìãÅÙ.
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÒŠ“Ìüÿÿÿÿ8ÒšÒÅÙ.

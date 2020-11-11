@@ -1,0 +1,14 @@
+
+=
+java:S11700"!Make this final field static too.(¹ê8’® ÚÙ.
+[
+java:S3878"8Remove this array creation and simply pass the elements.(¦¹­úÿÿÿÿ8¶èĞâÙ.
+^	java:S125¼"<This block of commented-out lines of code should be removed.(ïËéøÿÿÿÿ8à„¹ßÙ.
+‰
+java:S1128"gRemove this unused import 'org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator'.(š–ü…ÿÿÿÿÿ8¾ßÑâÙ.
+q	java:S1160"VRename this field "SESSION_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ê8’® ÚÙ.
+^	java:S125"<This block of commented-out lines of code should be removed.(é‰ô«üÿÿÿÿ8ÙúÕ»Ù.
+^	java:S125œ"<This block of commented-out lines of code should be removed.(½¤Şôüÿÿÿÿ8ÙúÕ»Ù.
+]	java:S125_"<This block of commented-out lines of code should be removed.(Êæì§ûÿÿÿÿ8ƒ¾¾áÙ.
+]	java:S125T"<This block of commented-out lines of code should be removed.(âùˆùÿÿÿÿ8±öóáÙ.
+Y	java:S125‹"<This block of commented-out lines of code should be removed.(şÓµÁ8»ñÀÅÙ.
