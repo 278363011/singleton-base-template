@@ -1,0 +1,8 @@
+
+Q
+java:S1128"4Remove this unused import 'org.slf4j.LoggerFactory'.(Ц ┌▐8°╣ьз█.
+I
+java:S1128
+"-Remove this unused import 'org.slf4j.Logger'.(э╪о68°╣ьз█.
+Ф
+java:S1130"yRemove the declaration of thrown exception 'org.apache.shiro.authc.AuthenticationException' which is a runtime exception.(П┼┴о¤    

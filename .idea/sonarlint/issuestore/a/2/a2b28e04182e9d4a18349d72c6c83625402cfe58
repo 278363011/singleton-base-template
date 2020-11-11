@@ -1,14 +1,13 @@
 
-=
-java:S11700"!Make this final field static too.(¹ê8’® ÚÙ.
+^	java:S125Ù"<This block of commented-out lines of code should be removed.(ïËéøÿÿÿÿ8à„¹ßÙ.
+h
+java:S1192`"FDefine a constant instead of duplicating this literal "authc" 4 times.(Ÿ§«Æşÿÿÿÿ8¯ïàªÛ.
 [
-java:S3878"8Remove this array creation and simply pass the elements.(¦¹­úÿÿÿÿ8¶èĞâÙ.
-^	java:S125¼"<This block of commented-out lines of code should be removed.(ïËéøÿÿÿÿ8à„¹ßÙ.
-‰
-java:S1128"gRemove this unused import 'org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator'.(š–ü…ÿÿÿÿÿ8¾ßÑâÙ.
-q	java:S1160"VRename this field "SESSION_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ê8’® ÚÙ.
-^	java:S125"<This block of commented-out lines of code should be removed.(é‰ô«üÿÿÿÿ8ÙúÕ»Ù.
-^	java:S125œ"<This block of commented-out lines of code should be removed.(½¤Şôüÿÿÿÿ8ÙúÕ»Ù.
-]	java:S125_"<This block of commented-out lines of code should be removed.(Êæì§ûÿÿÿÿ8ƒ¾¾áÙ.
-]	java:S125T"<This block of commented-out lines of code should be removed.(âùˆùÿÿÿÿ8±öóáÙ.
-Y	java:S125‹"<This block of commented-out lines of code should be removed.(şÓµÁ8»ñÀÅÙ.
+java:S3878²"8Remove this array creation and simply pass the elements.(¦¹­úÿÿÿÿ8¶èĞâÙ.
+q	java:S1162"VRename this field "SESSION_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ê8’® ÚÙ.
+^	java:S125¼"<This block of commented-out lines of code should be removed.(½¤Şôüÿÿÿÿ8ÙúÕ»Ù.
+=
+java:S11702"!Make this final field static too.(¹ê8’® ÚÙ.
+^	java:S125¾"<This block of commented-out lines of code should be removed.(é‰ô«üÿÿÿÿ8ÙúÕ»Ù.
+a
+java:S4143r"DVerify this is the key that was intended; it was already set before.(àãäù8öñ­Û.
