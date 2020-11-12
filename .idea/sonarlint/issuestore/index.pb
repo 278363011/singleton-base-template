@@ -43,8 +43,6 @@ m
 =src/main/java/com/codebaobao/controller/SysApiController.java,9\5\95e54d2aae79f68ec409d83ab51c89000c75967e
 g
 7src/main/java/com/codebaobao/exception/MyException.java,b\3\b36eb5484b21b7cc7249de413aa48c6c9f71394a
-w
-Gsrc/main/java/com/codebaobao/exception/user/UserInfoEmptyException.java,b\d\bddc0dc196c8ec52c5dfc171731b05280bc37226
 k
 ;src/main/java/com/codebaobao/exception/GlobalException.java,3\8\380f9b23ff12aca21f7e7cc9c5656feee2975810
 \
@@ -73,8 +71,6 @@ f
 6src/main/java/com/codebaobao/shiro/utils/ShiroKit.java,e\0\e072f4e1d44c9844e5eba95210550f7e265d0372
 f
 6src/main/java/com/codebaobao/shiro/utils/ToolUtil.java,c\0\c03c5aa0ff4fc627829a0aef4c6861710f5d5c62
-p
-@src/main/java/com/codebaobao/shiro/manager/MySessionManager.java,e\4\e47bde4ed53fea540287a0b2dc10a926bbd6e626
 s
 Csrc/main/java/com/codebaobao/shiro/controller/CommonController.java,c\5\c5ad7fd62781060d0b3f0bfea6d8d9a097c6a95f
 h
@@ -89,8 +85,6 @@ s
 Csrc/main/java/com/codebaobao/shiro/filter/SessionControlFilter.java,3\e\3e79f6d57aa94f3d92f41a2fccf626ce0055b75e
 j
 :src/main/java/com/codebaobao/shiro/config/ShiroConfig.java,a\2\a2b28e04182e9d4a18349d72c6c83625402cfe58
-n
->src/main/java/com/codebaobao/shiro/realm/CustomShiroRealm.java,e\1\e185cac01ebf7506679d739662ff97ffbfcd6eca
 r
 Bsrc/main/java/com/codebaobao/shiro/controller/LoginController.java,d\e\de485072dffed1fbbf65895affef7d2514358f7a
 s

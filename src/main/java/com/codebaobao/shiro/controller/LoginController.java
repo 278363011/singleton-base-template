@@ -75,14 +75,12 @@ public class LoginController {
     public Result<String> test(){
         return Result.success("测试成功1");
     }
-
     @RequiresPermissions("/caidan1")
     @RequestMapping("/test2")
     public Result<String> test2(){
         return Result.success("权限成功2");
     }
 
-    @RequiresPermissions("/caidan1")
     @RequestMapping("/test3")
     public Result<String> test3(){
         return Result.success("测试成功3");

@@ -17,7 +17,9 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletResponse;
 import java.io.PrintWriter;
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 public class UrlPermissionControlFilter extends PathMatchingFilter {
 
@@ -35,6 +37,12 @@ public class UrlPermissionControlFilter extends PathMatchingFilter {
         }
         ShiroUser shiroUser = (ShiroUser) subject.getPrincipal();
 
+        SysApi sysApia = new SysApi();
+        sysApia.setUrl("/sys/test3");
+        Set<SysApi> asd=new HashSet<>();
+        asd.add(sysApia);
+        shiroUser.setApiPermissions(asd);
+
         boolean hasPermission = false;
         if(Objects.isNull(shiroUser.getApiPermissions())){
             UnauthorizedException ex = new UnauthorizedException("当前用户没有访问路径" + requestURL + "的权限");
@@ -47,6 +55,9 @@ public class UrlPermissionControlFilter extends PathMatchingFilter {
             out.close();
             return false;
         }
+
+
+
         for (SysApi sysApi : shiroUser.getApiPermissions()) {
 
             if (sysApi.getUrl().equals(requestURL)){

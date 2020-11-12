@@ -26,7 +26,7 @@ public class UserInfoEmptyExceptionHandler{
      */
     @ExceptionHandler(UnknownAccountException.class)
     public Result<String> unknownAccountExceptionHandler(UnknownAccountException ex){
-        return Result.error(CodeMsg.create(100404, "用户名不存在！"));
+        return Result.error(CodeMsg.create(100404, ex.getMessage()));
     }
 
     /**
@@ -36,7 +36,7 @@ public class UserInfoEmptyExceptionHandler{
      */
     @ExceptionHandler(AuthenticationException.class)
     public Result<String> authenticationExceptionHandler(AuthenticationException ex){
-        return Result.error(CodeMsg.create(100500, "账号或密码错误！"));
+        return Result.error(CodeMsg.create(100500, ex.getMessage()));
     }
 
     /**
@@ -46,6 +46,6 @@ public class UserInfoEmptyExceptionHandler{
      */
     @ExceptionHandler(AuthorizationException.class)
     public Result<String> authorizationExceptionHandler(AuthorizationException ex){
-        return Result.error(CodeMsg.create(100403,"没有认证权限！"));
+        return Result.error(CodeMsg.create(100403,ex.getMessage()));
     }
 }
