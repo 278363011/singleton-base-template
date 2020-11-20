@@ -111,3 +111,5 @@ y
 Isrc/main/java/com/codebaobao/shiro/filter/UrlPermissionControlFilter.java,e\0\e0206f061f85892e690afd6ac684406bffdeff46
 ~
 Nsrc/main/java/com/codebaobao/exception/user/UserInfoEmptyExceptionHandler.java,d\7\d7d9cf5e780a5bcb307e64d4655a38086bfffb4f
+t
+Dsrc/main/java/com/codebaobao/shiro/manager/CustomSessionManager.java,4\8\48e5276de74337057f83cdb9c5bbe723f5bd53f6

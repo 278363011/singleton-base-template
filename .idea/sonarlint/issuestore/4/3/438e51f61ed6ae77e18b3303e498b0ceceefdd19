@@ -1,10 +1,12 @@
 
-{	java:S135Ê"YReduce the total number of break and continue statements in this loop to use at most one.(äè¶Åøÿÿÿÿ8Ò˜ºÛÙ.
-v	java:S135è"YReduce the total number of break and continue statements in this loop to use at most one.(¡‹›8¡µÄÛÙ.
+[	java:S106§"9Replace this use of System.out or System.err by a logger.(‚Îç…ùÿÿÿÿ8¾‰ÆˆÜ.
+v	java:S135ü"YReduce the total number of break and continue statements in this loop to use at most one.(¡‹›8¾‰ÆˆÜ.
+ƒ
+java:S1488ê"fImmediately return this expression instead of assigning it to the temporary variable "activeSessions".(êí@8¸ŠÏˆÜ.
+{	java:S135Ô"YReduce the total number of break and continue statements in this loop to use at most one.(äè¶Åøÿÿÿÿ8Ò˜ºÛÙ.
 \
-java:S1144Ä"9Remove this unused private "getSessionByUsername" method.(ï‚ÉÙûÿÿÿÿ8Ò˜ºÛÙ.
-Ÿ
-java:S1186®"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(É®ã8ºõ¼ÚÙ.
+java:S1144Î"9Remove this unused private "getSessionByUsername" method.(ï‚ÉÙûÿÿÿÿ8Ò˜ºÛÙ.
 ¤
-java:S1186µ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(òŸë€şÿÿÿÿ8ºõ¼ÚÙ.
-T	java:S106“"9Replace this use of System.out or System.err by a logger.(‚Îç…ùÿÿÿÿ
+java:S1186¶"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(òŸë€şÿÿÿÿ8ºõ¼ÚÙ.
+Ÿ
+java:S1186¯"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(É®ã8ºõ¼ÚÙ.

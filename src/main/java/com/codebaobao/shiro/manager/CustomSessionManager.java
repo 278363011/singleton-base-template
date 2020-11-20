@@ -19,6 +19,7 @@ public class CustomSessionManager extends DefaultWebSessionManager {
     private static final String REFERENCED_SESSION_ID_SOURCE = "Stateless request";
 
     public CustomSessionManager() {
+        super();
     }
 
     @Override

@@ -1,13 +1,13 @@
 
+V	java:S106‚"9Replace this use of System.out or System.err by a logger.(‹«ê§8¼ÎöÅÙ.
 e
 java:S1192?"HDefine a constant instead of duplicating this literal "kickout" 3 times.(à¥¸ó8¼ÎöÅÙ.
-v
-java:S2293i"YReplace the type specification in this constructor call with the diamond operator ("<>").(™µè©8¼ÎöÅÙ.
-t
-java:S3776)"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(á£å¨ıÿÿÿÿ8¼ÎöÅÙ.
-V	java:S106‚"9Replace this use of System.out or System.err by a logger.(‹«ê§8¼ÎöÅÙ.
-V
-java:S1128"9Remove this unused import 'com.codebaobao.model.SysUser'.(÷­8˜×…ÆÙ.
+W	java:S110"<This class has 8 parents which is greater than 5 authorized.(­ëïq8‰§õÅÙ.
 v
 java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(üŸÙ“8¼ÎöÅÙ.
-W	java:S110"<This class has 8 parents which is greater than 5 authorized.(­ëïq8‰§õÅÙ.
+V
+java:S1128"9Remove this unused import 'com.codebaobao.model.SysUser'.(÷­8˜×…ÆÙ.
+t
+java:S3776)"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(á£å¨ıÿÿÿÿ8¼ÎöÅÙ.
+v
+java:S2293i"YReplace the type specification in this constructor call with the diamond operator ("<>").(™µè©8¼ÎöÅÙ.

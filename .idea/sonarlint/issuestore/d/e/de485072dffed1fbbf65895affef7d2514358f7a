@@ -1,11 +1,24 @@
 
-b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ñ¹¶‡8¢ûÔÆÙ.
+b
+java:S1128"@Remove this unused import 'org.crazycake.shiro.RedisSessionDAO'.(žáºéþÿÿÿÿ8ÏÖ¯ˆÜ.
+X	java:S125R"<This block of commented-out lines of code should be removed.(œæ¦Ë8Æ³¨Û.
 u
 java:S1128"XRemove this unused import 'com.codebaobao.exception.user.UserInfoEmptyExceptionHandler'.(Å©ü8à©ïªÛ.
-]	java:S125("<This block of commented-out lines of code should be removed.(™ƒÙ…øÿÿÿÿ8Æ³¨Û.
-X	java:S1253"<This block of commented-out lines of code should be removed.(­²ª‰8Æ³¨Û.
-]	java:S125&"<This block of commented-out lines of code should be removed.(üÅÎÝøÿÿÿÿ8Æ³¨Û.
-W	java:S125A"<This block of commented-out lines of code should be removed.(Ê‡Ä48Æ³¨Û.
-X	java:S125b"<This block of commented-out lines of code should be removed.(°éÙŽ8ÿÕüÆÙ.
-]	java:S125:"<This block of commented-out lines of code should be removed.(¼Ûüõüÿÿÿÿ8Æ³¨Û.
-X	java:S125D"<This block of commented-out lines of code should be removed.(œæ¦Ë8Æ³¨Û.
+Z	java:S106b"9Replace this use of System.out or System.err by a logger.(Ì“Õçûÿÿÿÿ8ÐŽéÒÛ.
+]	java:S1256"<This block of commented-out lines of code should be removed.(™ƒÙ…øÿÿÿÿ8Æ³¨Û.
+u
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡ž¸Îùÿÿÿÿ8ƒ‰‰Ü.
+]	java:S125H"<This block of commented-out lines of code should be removed.(¼Ûüõüÿÿÿÿ8Æ³¨Û.
+X	java:S125A"<This block of commented-out lines of code should be removed.(­²ª‰8Æ³¨Û.
+W	java:S125O"<This block of commented-out lines of code should be removed.(Ê‡Ä48Æ³¨Û.
+Z	java:S106Z"9Replace this use of System.out or System.err by a logger.(Ì“Õçûÿÿÿÿ8÷”æÒÛ.
+p
+java:S1128"NRemove this unused import 'com.codebaobao.shiro.manager.CustomSessionManager'.(Ÿ–¢êþÿÿÿÿ8’™ˆÜ.
+_
+java:S1128"=Remove this unused import 'org.crazycake.shiro.RedisManager'.(ž´¤†ýÿÿÿÿ8æ×¨ˆÜ.
+]	java:S1254"<This block of commented-out lines of code should be removed.(üÅÎÝøÿÿÿÿ8Æ³¨Û.
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¶ûµÔúÿÿÿÿ8¢ûÔÆÙ.
+U	java:S106c"9Replace this use of System.out or System.err by a logger.(„Æô±8‚éèÒÛ.
+e
+java:S1128"HRemove this unused import 'org.apache.shiro.session.mgt.SessionManager'.(Ñë«ì8ƒ‰‰Ü.
+Y	java:S125‡"<This block of commented-out lines of code should be removed.(°éÙŽ8ÿÕüÆÙ.

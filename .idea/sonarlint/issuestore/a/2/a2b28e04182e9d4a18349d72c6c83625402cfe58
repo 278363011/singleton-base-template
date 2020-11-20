@@ -1,13 +1,13 @@
 
-^	java:S125Ù"<This block of commented-out lines of code should be removed.(ïËéøÿÿÿÿ8à„¹ßÙ.
-h
-java:S1192`"FDefine a constant instead of duplicating this literal "authc" 4 times.(Ÿ§«Æşÿÿÿÿ8¯ïàªÛ.
-[
-java:S3878²"8Remove this array creation and simply pass the elements.(¦¹­úÿÿÿÿ8¶èĞâÙ.
 q	java:S1162"VRename this field "SESSION_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ê8’® ÚÙ.
-^	java:S125¼"<This block of commented-out lines of code should be removed.(½¤Şôüÿÿÿÿ8ÙúÕ»Ù.
 =
 java:S11702"!Make this final field static too.(¹ê8’® ÚÙ.
 ^	java:S125¾"<This block of commented-out lines of code should be removed.(é‰ô«üÿÿÿÿ8ÙúÕ»Ù.
+h
+java:S1192`"FDefine a constant instead of duplicating this literal "authc" 3 times.(Ÿ§«Æşÿÿÿÿ8×»íÓÛ.
+[
+java:S3878³"8Remove this array creation and simply pass the elements.(¦¹­úÿÿÿÿ8¶èĞâÙ.
+^	java:S125¼"<This block of commented-out lines of code should be removed.(½¤Şôüÿÿÿÿ8ÙúÕ»Ù.
 a
 java:S4143r"DVerify this is the key that was intended; it was already set before.(àãäù8öñ­Û.
+^	java:S125Ú"<This block of commented-out lines of code should be removed.(ïËéøÿÿÿÿ8à„¹ßÙ.

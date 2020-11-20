@@ -26,6 +26,7 @@ import org.apache.shiro.subject.SimplePrincipalCollection;
 import org.apache.shiro.subject.support.DefaultSubjectContext;
 import org.apache.shiro.util.ByteSource;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
+import org.crazycake.shiro.RedisCacheManager;
 import org.crazycake.shiro.RedisSessionDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.DependsOn;
@@ -190,6 +191,15 @@ public class ShiroFactroy implements IShiro {
     }
 
     /**
+     * 所有所有缓存
+     */
+    public static RedisCacheManager getRedisCacheManager(){
+        return SpringContextHolder.getBean(RedisCacheManager.class);
+    }
+
+
+
+    /**
      * 从缓存中获取指定用户名的Session
      * @param username
      */
@@ -213,6 +223,16 @@ public class ShiroFactroy implements IShiro {
             }
         }
         return null;
+    }
+
+    /**
+     * 获取当前的所有active session
+     */
+    public static Collection<Session> getCurrentAllSessions(){
+        // 获取当前已登录的用户session列表
+        RedisSessionDAO redisSessionDAO = getRedisSessionDAO();
+        Collection<Session> activeSessions = redisSessionDAO.getActiveSessions();
+        return activeSessions;
     }
 
 

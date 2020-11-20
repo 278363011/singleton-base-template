@@ -3,13 +3,23 @@ package com.codebaobao.shiro.controller;
 import com.codebaobao.dto.UserVo;
 import com.codebaobao.exception.user.UserInfoEmptyExceptionHandler;
 import com.codebaobao.result.Result;
+import com.codebaobao.shiro.factory.ShiroFactroy;
+import com.codebaobao.shiro.manager.CustomSessionManager;
 import com.codebaobao.shiro.token.AdminToken;
+import com.codebaobao.shiro.utils.ShiroKit;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
+import org.apache.shiro.session.Session;
+import org.apache.shiro.session.mgt.SessionManager;
 import org.apache.shiro.subject.Subject;
+import org.crazycake.shiro.RedisManager;
+import org.crazycake.shiro.RedisSessionDAO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.Collection;
 
 @Slf4j
 @RestController
@@ -17,7 +27,7 @@ import org.springframework.web.bind.annotation.*;
 public class LoginController {
 
     @GetMapping("/adminLogin")
-    public void login(UserVo user) throws Exception {
+    public Result<String> login(UserVo user) throws Exception {
 
         if (StringUtils.isEmpty(user.getUsrname()) || StringUtils.isEmpty(user.getPwd())) {
             throw new NullPointerException("账户密码不能为空");
@@ -29,6 +39,10 @@ public class LoginController {
         admintoken.setPassword(user.getPwd().toCharArray());
         //进行验证，这里的异常全抛
         subject.login(admintoken);
+
+        return  Result.success(""+ShiroKit.getSession().getId());
+
+
     }
 
 //    @PostMapping("/wxLogin")
@@ -73,18 +87,43 @@ public class LoginController {
 
     @RequestMapping("/test")
     public Result<String> test(){
+        System.out.println(ShiroKit.getSession().getId());
+        ShiroKit.getSession().setAttribute("a", "b");
+
         return Result.success("测试成功1");
     }
-    @RequiresPermissions("/caidan1")
+
     @RequestMapping("/test2")
     public Result<String> test2(){
+        System.out.println(ShiroKit.getSession().getId());
+        System.out.println(ShiroKit.getSession().getAttribute("a"));
+
         return Result.success("权限成功2");
     }
 
+    @RequiresPermissions("/caidan1")
     @RequestMapping("/test3")
     public Result<String> test3(){
         return Result.success("测试成功3");
     }
+
+
+
+    @RequestMapping("/showOnLine")
+    public Result<Collection<Session>> showOnLine(){
+        return Result.success(ShiroFactroy.getCurrentAllSessions());
+    }
+
+    @RequestMapping("/offLine")
+    public Result<String> offLine(String key){
+        ShiroFactroy.deleteCache("admin", true);
+        return Result.success("测试成功3");
+    }
+
+
+
+
+
 
 
 

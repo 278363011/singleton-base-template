@@ -101,7 +101,7 @@ public class ShiroConfig {
         //验证码
         filterChainDefinitionMap.put("/kaptcha", "anon");
         //测试1
-        filterChainDefinitionMap.put("/sys/test", "authc");
+        filterChainDefinitionMap.put("/sys/test", "anon");
         //测试2
         filterChainDefinitionMap.put("/sys/test2", "authc");
         //测试3
@@ -208,7 +208,8 @@ public class ShiroConfig {
     /**
      * redis 配置
      */
-    private RedisManager redisManager() {
+    @Bean
+    public RedisManager redisManager() {
         RedisManager redisManager = new RedisManager();
         redisManager.setDatabase(database);
         redisManager.setHost(host);
